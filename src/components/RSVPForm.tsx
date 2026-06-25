@@ -14,7 +14,7 @@ export function RSVPForm() {
     
     const text = `RSVP for Ridmi & Nalin's Wedding:\nName: ${formData.name}\nAttending: ${formData.attending}\nMessage: ${formData.message || 'None'}`;
     const encodedText = encodeURIComponent(text);
-    const whatsappUrl = `https://wa.me/94767441039?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/94767441079?text=${encodedText}`;
 
     // Brief artificial delay for UI feedback
     await new Promise((resolve) => setTimeout(resolve, 800));
@@ -66,7 +66,7 @@ export function RSVPForm() {
               
               <div className="space-y-8">
                 {[
-                  { name: 'Ridmi', phone: '076 744 1039' },
+                  { name: 'Ridmi', phone: '076 744 1079' },
                   { name: 'Nalin', phone: '077 653 1334' }
                 ].map((contact, idx) => (
                   <div key={idx} className="flex items-center gap-6 group">
