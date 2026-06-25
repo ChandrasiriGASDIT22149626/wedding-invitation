@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandrasiriGASDIT22149626/wedding-invitation.git"
+  },
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",

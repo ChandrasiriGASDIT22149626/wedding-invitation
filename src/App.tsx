@@ -46,6 +46,11 @@ export function App() {
 
   return (
     <div className="relative w-full min-h-screen bg-transparent">
+      {/* Subtle Gold Overlay */}
+      <div className="fixed inset-0 pointer-events-none z-0">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.07)_0%,rgba(0,0,0,0)_70%)] mix-blend-screen" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/10 via-transparent to-[#D4AF37]/5 mix-blend-color-dodge" />
+      </div>
       {/* Envelope opening experience */}
       <AnimatePresence>
         {showEnvelope && (
