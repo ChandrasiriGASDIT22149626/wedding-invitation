@@ -121,13 +121,7 @@ export function CoupleHero() {
               </span>
             </button>
 
-            {/* Secondary Action Button */}
-            <button className="flex items-center space-x-2 rounded-xl border border-[#FFFFFF]/10 bg-transparent px-6 py-2.5 transition-all duration-300 hover:border-[#C0C0C0]/50 hover:bg-white/5">
-              <Calendar className="w-4 h-4 text-[#C0C0C0]" />
-              <span className="font-sans text-[11px] tracking-widest text-[#C0C0C0] font-light">
-                Add to Calendar
-              </span>
-            </button>
+
 
           </motion.div>
         </div>
@@ -139,9 +133,7 @@ export function CoupleHero() {
         transition={{ duration: 1, delay: 1.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center"
       >
-        <span className="font-sans text-[9px] tracking-[0.35em] text-[#606060] uppercase mb-4 font-light">
-          Scroll for details
-        </span>
+
         <div className="w-8 h-8 rounded-full border border-[#606060]/50 flex items-center justify-center transition-colors hover:border-[#C0C0C0]">
           <ChevronDown className="w-4 h-4 text-[#808080] animate-bounce" />
         </div>

@@ -106,7 +106,7 @@ export function BrideAndGroom() {
             <span className="font-serif text-2xl md:text-3xl tracking-[0.3em] uppercase luxury-gradient-text">Nalin</span>
             <div className="h-px w-0 bg-[#C0C0C0]/50 mx-auto my-4 group-hover:w-16 transition-all duration-700"></div>
             <p className="font-sans text-[10px] md:text-xs text-[#C0C0C0]/70 tracking-widest uppercase leading-relaxed max-w-[200px] font-medium">
-              Beloved Son of Mr. & Mrs. Priyawansha
+              Loving Son of Mr. & Mrs. Priyawansha
             </p>
           </div>
         </div>
